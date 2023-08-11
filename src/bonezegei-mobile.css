@@ -1,1 +1,87 @@
+/*Bonezegei Mobile Template
+  Author: Jofel Batutay (Bonezegei)
+  Date: August 2023 
+*/
+
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.navbar a:hover {
+  background: white;
+  color: black;
+}
+
+.navbar a.active {
+  /*background-color: #04aa6d;*/
+
+  color: #04aa6d;
+}
+
+.navbar a.none {
+  color: #333;
+}
+
+.nav-icons {
+  font-size: 22px;
+}
+.nav-icons-caption {
+  font-size: 12px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+/*Navigation Bar 4*/
+/************************************************************************/
+.navbarContainer4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  color: #333;
+}
+
+#navbarButton4_1 {
+  color: #000;
+}
+#navbarButton4_2 {
+  color: #888;
+}
+#navbarButton4_3 {
+  color: #888;
+}
+#navbarButton4_4 {
+  color: #888;
+}
+
+#navbarContent4_1 {
+  display: block;
+}
+#navbarContent4_2 {
+  display: none;
+}
+#navbarContent4_3 {
+  display: none;
+}
+#navbarContent4_4 {
+  display: none;
+}
 
