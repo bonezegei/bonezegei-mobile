@@ -51,6 +51,46 @@ body {
   margin-bottom: 5px;
 }
 
+/*Navigation Bar 5*/
+/************************************************************************/
+.navbarContainer5 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  color: #333;
+}
+
+#navbarButton5_1 {
+  color: #000;
+}
+#navbarButton5_2 {
+  color: #888;
+}
+#navbarButton5_3 {
+  color: #888;
+}
+#navbarButton5_4 {
+  color: #888;
+}
+#navbarButton5_5 {
+  color: #888;
+}
+
+#navbarContent5_1 {
+  display: block;
+}
+#navbarContent5_2 {
+  display: none;
+}
+#navbarContent5_3 {
+  display: none;
+}
+#navbarContent5_4 {
+  display: none;
+}
+#navbarContent5_5 {
+  display: none;
+}
+
 /*Navigation Bar 4*/
 /************************************************************************/
 .navbarContainer4 {
@@ -85,3 +125,58 @@ body {
   display: none;
 }
 
+/*Navigation Bar 3*/
+/************************************************************************/
+.navbarContainer3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: #333;
+}
+
+#navbarButton3_1 {
+  color: #000;
+}
+#navbarButton3_2 {
+  color: #888;
+}
+#navbarButton3_3 {
+  color: #888;
+}
+
+#navbarContent3_1 {
+  display: block;
+}
+#navbarContent3_2 {
+  display: none;
+}
+#navbarContent3_3 {
+  display: none;
+}
+
+/*Navigation Bar 2*/
+/************************************************************************/
+.navbarContainer2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #333;
+}
+
+#navbarButton2_1 {
+  color: #000;
+}
+#navbarButton2_2 {
+  color: #888;
+}
+
+#navbarContent2_1 {
+  display: block;
+}
+#navbarContent2_2 {
+  display: none;
+}
+
+/*Toast Notification*/
+/************************************************************************/
+
+/*Card */
+/************************************************************************/
