@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="/src/bonezegei-mobile.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbarContainer4">
+        <a id="navbarButton4_1">
+          <i class="fa fa-heart nav-icons"></i>
+          <p class="nav-icons-caption">Home</p>
+        </a>
+
+        <a id="navbarButton4_2">
+          <i class="fa fa-qrcode nav-icons"></i>
+          <p class="nav-icons-caption">Devices</p>
+        </a>
+
+        <a id="navbarButton4_3">
+          <i class="fa fa-cog nav-icons"></i>
+          <p class="nav-icons-caption">Settings</p>
+        </a>
+
+        <a id="navbarButton4_4">
+          <i class="fa fa-user-circle-o nav-icons"></i>
+          <p class="nav-icons-caption">Profile</p>
+        </a>
+      </div>
+    </div>
+    <!-- Home-->
+    <div id="navbarContent4_1">
+      <div class="card">
+        <br />
+        <div class="card-text" style="font-size: 24px; color: #777">Hello</div>
+        <div
+          class="card-text"
+          style="font-size: 18px; font-weight: bold; margin-top: 5px"
+          id="patient_name"
+        >
+          Noah Gonzaga
+        </div>
+        <hr style="margin-right: 10px; background-color: #aaa; color: #aaa" />
+        <br />
+        <div class="card-text header1" style="color: #777">Vital Signs</div>
+        <br />
+
+        <div class="card-sub" style="display: flex">
+          <div style="display: block; width: 300px">
+            <div class="card-text sub1">Blood Sugar</div>
+            <br />
+            <div style="display: flex">
+              <div
+                class="card-text header"
+                style="font-size: 32px; color: #777"
+                id="vital_blood_sugar"
+              >
+                0
+              </div>
+              <div class="card-text header1">mg/dL</div>
+            </div>
+            <div class="card-text sub2">0 minutes ago</div>
+            <br />
+          </div>
+          <div
+            style="
+              width: 100%;
+              text-align: center;
+              margin: auto;
+              margin-left: 30px;
+            "
+          >
+            <div
+              style="
+                width: 90%;
+                height: 100px;
+                background-color: #eee;
+                color: #aaa;
+              "
+            >
+              mini Chart
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="card-sub" style="display: flex">
+          <div style="display: block; width: 300px">
+            <div class="card-text sub1">Blood Pressure</div>
+            <br />
+            <div style="display: flex">
+              <div
+                class="card-text header"
+                style="font-size: 32px; color: #777"
+                id="vital_blood_sugar"
+              >
+                0/0
+              </div>
+              <div class="card-text header1"></div>
+            </div>
+            <div class="card-text sub2">0 minutes ago</div>
+            <br />
+          </div>
+          <div
+            style="
+              width: 100%;
+              text-align: center;
+              margin: auto;
+              margin-left: 30px;
+            "
+          >
+            <div
+              style="
+                width: 90%;
+                height: 100px;
+                background-color: #eee;
+                color: #aaa;
+              "
+            >
+              mini Chart
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="card-sub" style="display: flex">
+          <div style="display: block; width: 300px">
+            <div class="card-text sub1">Heart Rate</div>
+            <br />
+            <div style="display: flex">
+              <div
+                class="card-text header"
+                style="font-size: 32px; color: #777"
+                id="vital_blood_sugar"
+              >
+                0
+              </div>
+              <div class="card-text header1">BPM</div>
+            </div>
+            <div class="card-text sub2">0 minutes ago</div>
+            <br />
+          </div>
+          <div
+            style="
+              width: 100%;
+              text-align: center;
+              margin: auto;
+              margin-left: 30px;
+            "
+          >
+            <div
+              style="
+                width: 90%;
+                height: 100px;
+                background-color: #eee;
+                color: #aaa;
+              "
+            >
+              mini Chart
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="card-sub" style="display: flex">
+          <div style="display: block; width: 300px">
+            <div class="card-text sub1">Blood Oxygen</div>
+            <br />
+            <div style="display: flex">
+              <div
+                class="card-text header"
+                style="font-size: 32px; color: #777"
+                id="vital_blood_sugar"
+              >
+                0%
+              </div>
+              <div class="card-text header1">Sp02</div>
+            </div>
+            <div class="card-text sub2">0 minutes ago</div>
+            <br />
+          </div>
+          <div
+            style="
+              width: 100%;
+              text-align: center;
+              margin: auto;
+              margin-left: 30px;
+            "
+          >
+            <div
+              style="
+                width: 90%;
+                height: 100px;
+                background-color: #eee;
+                color: #aaa;
+              "
+            >
+              mini Chart
+            </div>
+          </div>
+        </div>
+        <br />
+        <br /><br /><br />
+      </div>
+    </div>
+    <!-- Device-->
+    <div id="navbarContent4_2">
+      <div class="card">
+        <div class="card-text sub1">Device Settings</div>
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">Bluetooth</div>
+        </div>
+
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">WiFi STA/AP</div>
+        </div>
+        <br />
+      </div>
+      <br />
+      <div class="card">
+        <div class="card-text sub1">Glucometer RFID</div>
+
+        <br /><br /><br /><br /><br />
+      </div>
+    </div>
+
+    <div id="navbarContent4_3">
+      <div class="card">
+        <div class="card-text sub1">User Settings</div>
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">Location Sharing</div>
+        </div>
+
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">SMS on Emergency</div>
+        </div>
+
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">Data Sharing</div>
+        </div>
+        <br />
+      </div>
+      <br />
+
+      <div class="card">
+        <div class="card-text sub1">Notification Settings</div>
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">Abnormal Sugar Level</div>
+        </div>
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">Abnormal Blood Pressure</div>
+        </div>
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">Abnormal Heart Rate</div>
+        </div>
+
+        <div style="display: flex; margin-top: 20px">
+          <label class="toggle">
+            <span class="toggle-label"></span>
+            <input
+              class="toggle-checkbox"
+              type="checkbox"
+              onclick="myFunction()"
+              id="checkbox"
+              ;
+            />
+            <div class="toggle-switch"></div>
+          </label>
+          <div class="card-text header2">Abnormal Oxygen Level</div>
+        </div>
+        <br /><br />
+      </div>
+    </div>
+
+    <div id="navbarContent4_4">
+      <h1>Profile</h1>
+    </div>
+    <script></script>
+    <script src="https://bonezegei.github.io/bonezegei-mobile/src/bonezegei-mobile.js"></script>
+    <script>
+      var ck = document.getElementById("checkbox");
+      ck.checked = true;
+      function myFunction() {
+        var ck = document.getElementById("checkbox");
+        // alert(ck.checked);
+      }
+    </script>
+  </body>
+</html>
